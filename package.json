@@ -1,0 +1,40 @@
+{
+  "name": "Nodejs",
+  "version": "1.0.0",
+  "description": "Accounts",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "nodejs"
+  ],
+  "author": "MUBASHAR AFZAL",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-mongo-sanitize": "^2.0.1",
+    "express-rate-limit": "^5.2.3",
+    "helmet": "^4.3.1",
+    "hpp": "^0.2.3",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
